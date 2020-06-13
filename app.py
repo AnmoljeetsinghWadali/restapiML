@@ -37,4 +37,4 @@ def predict(Age,Sibsp,Parch,Fare,Gender,Pclass,Place):
 
   return jsonify(result)
 
-app.run(host='0.0.0.0')
+app.run(host='0.0.0.0',port=7000)
